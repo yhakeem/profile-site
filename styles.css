@@ -6,6 +6,38 @@ body {
     margin-top: 12%;
   }
 
+  #tech{
+    color: #33cccc;
+    font-weight: bold;
+
+  }
+
+  #create{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+
+ 
+
+  #biopara{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: larger;
+  }
+
+  #bio-pic{
+   margin-bottom: 15%;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #bio-footer{
+    padding-top: 50%;
+  }
+
 footer > div{
     display:flex;
     justify-content: space-between;
