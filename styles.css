@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer{
+    margin-top: 12%;
+  }
+
+footer > div{
+    display:flex;
+    justify-content: space-between;
+    color:#33cccc;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-top: 15%; */
+    flex-shrink: 0;
+}
+
+.logo{
+    color: #33cccc;
+}
+
+footer > h5{
+    text-align: center;
+    
+}
+
+
+#home-title{
+    text-align: center;
+   
+}
+
+
+
+#home-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#home-article{
+    /* width:50%; */
+}
+
+@media only screen and (max-width: 600px) {
+   
+  }
+
