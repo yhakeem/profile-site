@@ -2,6 +2,25 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+
+#proff{
+    display: flex;
+    justify-content: space-around;
+}
+
+#edu{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.experiance{
+    text-align: center;
+}
+
+
+
   #footer{
     margin-top: 12%;
   }
@@ -16,6 +35,17 @@ body {
     color: orange;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+  }
+
+  #projects{
+    color:blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+
+  #gen{
+    text-decoration: none;
+    color:blue;
   }
 
  
