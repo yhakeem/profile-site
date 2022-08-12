@@ -18,12 +18,12 @@ body {
 }
 
 a{
-  text-decoration: none !important;
+  text-decoration: none ;
 }
 .card-title{
    text-align: center; 
   color: #33cccc;
-  text-decoration: none !important ;
+ 
 }
 
 h1{
