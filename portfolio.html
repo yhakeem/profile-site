@@ -9,15 +9,14 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
   <body>
-    <header>
- 
+  
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <h1>Portfolio</h1> 
+              
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
@@ -46,27 +45,44 @@
 
               </div>
           </nav>
-     </header>
-    <!-- portfolio -->
+
+          <header><h1>Portfolio</h1></header>
+
     <main>
-        <section>
-            <article> <a href="https://github.com/yhakeem/Generation-Skate.git"><h3>Generation Skate</h3></a>
-                <img src="./imgs/genskate.png">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quas facere quibusdam, vitae et necessitatibus fugiat aliquid voluptate voluptatum nobis aliquam culpa voluptas veritatis, debitis, a corrupti laborum! Eum, eveniet.</p>
+        <section id="port-sec">
+           
+        <!-- portfolio -->
+                <article>
+                  <div class="card" style="width: 35rem;">
+                    <a href="https://github.com/yhakeem/Generation-Skate.git"><h5 class="card-title">Generation Skate</h5></a>
+                      <img src="./imgs/genskate.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Full stack ecommerce website using HTML, CSS, and Javascript.</p>
+                      </div>
+                    </div>
+              </article>
+
+              <br>
+              <article>
+                <div class="card" style="width: 35rem;">
+                  <a href="https://github.com/yhakeem/sneaker-heads"><h5 class="card-title">Sneaker Heads</h5></a>
+                    <img src="./imgs/Screenshot (26).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Front end project using basic HTML and CSS.</p>
+                    </div>
+                  </div>
             </article>
-    
+            
+            <br><br>
             <article>
-                <a href="https://github.com/yhakeem/sneaker-heads"><h3>Sneaker Heads</h3></a>
-                <img src="./imgs/Screenshot (26).png">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae natus quis nihil officia veritatis sed quas eveniet labore velit, ducimus eaque repellat voluptates adipisci expedita magnam laborum, ad deserunt dolores!</p>
+              <div class="card" style="width: 35rem;">
+                <a href="https://github.com/yhakeem/buckscounts"> <h5 class="card-title">Bucks Counts</h5></a>
+                  <img src="./imgs/buckscouts.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Front end project using HTML , CSS, and flexbox. </p>
+                  </div>
+                </div>
             </article>
-    
-            <article> 
-                <a href="https://github.com/yhakeem/buckscounts"><h3>Bucks Counts</h3></a>
-                <img src="./imgs/buckscouts.png">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At adipisci delectus numquam, exercitationem rem distinctio eaque pariatur a aperiam dicta dignissimos, eligendi perspiciatis doloribus ut architecto natus nesciunt quis repellendus.</p>
-            </article>
-         
         </section>
     </main>
 
@@ -76,7 +92,7 @@
         <p>Dallas, TX</p>
         <p>Phone:123-456-7891</p>
         <p>Email: yoyothetechie@techwolrd.com</p>
-        <a href="https://github.com/yhakeem">Website</a>
+        <a class="footer" href="https://github.com/yhakeem">Website</a>
     </div>
     </footer>
     
